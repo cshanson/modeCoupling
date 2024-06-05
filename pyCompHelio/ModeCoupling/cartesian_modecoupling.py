@@ -883,7 +883,7 @@ class cartesian_modeCoupling(object):
 			# Xi_hp *= NP.sqrt(1/10.)
 			# Xi_zp *= NP.sqrt(1/10.)
 
-			with NP.load('/scratch/ch3246/OBSDATA/gyreresult/eigenfunctions_combined/eigs%02d.npz' % radial_order) as DICT:
+			with NP.load('../../eigenfunctions_combined/eigs%02d.npz' % radial_order) as DICT:
 				z     = DICT['z']
 				rho   = DICT['rho']
 				cs    = DICT['cs']
@@ -891,7 +891,7 @@ class cartesian_modeCoupling(object):
 				Xi_h  = DICT['Xi_h']
 				Xi_z  = DICT['Xi_z']
 
-			with NP.load('/scratch/ch3246/OBSDATA/gyreresult/eigenfunctions_combined/eigs%02d.npz' % radial_orderp) as DICT:
+			with NP.load('../../eigenfunctions_combined/eigs%02d.npz' % radial_orderp) as DICT:
 				eig_kp = DICT['eig_k']
 				Xi_hp = DICT['Xi_h']
 				Xi_zp = DICT['Xi_z']

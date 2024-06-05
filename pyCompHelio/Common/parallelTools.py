@@ -1137,7 +1137,8 @@ def getClusterName():
   elif 'something for torque' in hn:
     return 'torque'
   else:
-    raise Exception('Cluster no recognized check getClusterName in Common/parallelTools.py')
+    return 1
+    # raise Exception('Cluster no recognized check getClusterName in Common/parallelTools.py')
 
 
 

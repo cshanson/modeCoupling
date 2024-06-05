@@ -25,10 +25,10 @@ from .rk4              import *
 from .solarFFT         import *
 from .assocLegendre    import *
 from .ritzwollerLavely import *
-from .rayTracing       import *
-from .simulation       import *
-from .nodalPoints      import *
-from .equationMJ       import *
+# from .rayTracing       import *
+# from .simulation       import *
+# from .nodalPoints      import *
+# from .equationMJ       import *
 from .peakdet          import *
 from .FWHM             import *
 from .Gaunt            import *
