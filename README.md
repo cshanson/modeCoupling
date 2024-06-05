@@ -27,3 +27,7 @@ Users who wish to use this code in publications should reference:
 [Mani et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...926..127M/abstract),
 [Das 2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...940...92D/abstract),
 Hanson et al. 2024
+
+
+## Acknowledgements
+Some parts of the core routines were developed by Damien Fournier (Basis routines) and Michael Leguebe (ParallelTools).
