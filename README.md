@@ -30,4 +30,4 @@ Hanson et al. 2024
 
 
 ## Acknowledgements
-Some parts of the core routines were developed by Damien Fournier (Basis routines) and Michael Leguebe (ParallelTools).
+Some parts of the core routines were developed by Damien Fournier (Bspline Basis routines) and Michael Leguebe (ParallelTools).
