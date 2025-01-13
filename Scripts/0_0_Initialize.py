@@ -1,7 +1,7 @@
 # Purpose of this routine is just to specify the directories we will use
 
-# Path to routines
-pathToRoutines = '/home/hanson/Desktop/github_testing/modeCoupling/'
+# Path to routines, specify the path the to modeCoupling directory
+pathToRoutines = '~/modeCoupling/'
 import sys
 sys.path.insert(0,pathToRoutines)
 print("Importing pythonRoutines")
